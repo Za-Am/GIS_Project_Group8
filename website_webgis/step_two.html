@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Step 2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Landslide Project</strong> <span>by Group8</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+
+				<!-- Menu--------------------------------------------------------------------------------- -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="project.html">Project</a></li>
+							<li><a href="openlayers.html">Open Leayers</a></li>
+							<li><a href="team.html">Team</a></li>
+						</ul>
+						
+					</nav>
+
+				<!-- Main --------------------------------------------------------------------------------- -->
+					<div id="main" class="alt">
+
+						<!-- road river----------------------------------------------------------------------------- -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Step 2</h1>
+										<p>The purpose of this step is to produce a susceptibility map by using machine learning.<br>For implementing the method, the ModelMap package, implemented in R, is used that added in QGIS.</p>
+									</header>
+									
+								</div>
+							</section>
+
+					</div>
+
+
+
+					<!-- Split suscebtobility--------------------------------------------------------------------------------- -->
+						
+
+							<section id="contact">
+						<div class="inner">
+							<section>
+									<div>
+										<span class="image main"><img src="images/step2/Layout6.jpg" alt="" /></span>
+									</div>
+									
+
+								</section>
+
+					<!---suscebtibility---------------------------------------------------------------------------------->
+						<section class="split">
+								<section>
+								
+								<br>
+								<p>Generating a Susceptibility map will be our primer goal in the second step. so, in order to attain this map, we exploit the R programing language as an extension of QGIS and we used the Python programming language for validating the result. We implement machine learning with random Forest method (Random forests or random decision forests are machine learning methods for classification and regression and other tasks that operate by building different decision trees, decision trees themself were insufficient because they are not flexible when it comes to new data. But random forest increases the flexibility resulting in improvement of accuracy. The output of random forest is the class selected by most trees in the forest.). this methodology gives us the opportunity to generate models and validate the results and produce maps. By these maps investigating the area in detail is possible and sometimes convenient. We validate R output using a python programming language for testing points and landslide susceptibility map.<br>
+								</p>
+								
+									
+								</section>
+							</div>
+						</section>
+						<!----error matrix------------------------------------------------------------------------------>
+
+				<section id="contact">
+						<div class="inner">
+							<section>
+								<br>
+								
+								
+ 							<p>This confusion matrix shows how the RF method performed and what is the accuracy of the method. As it is evident in the matrix, the principal diagonal(100,113) indicates how many times samples were correctly classified, on contrary, in secondary diagonal(45,37), the algorithm misclassified some samples which means that where Hazard is 1, the algorithm considers it 0 and conversely. In addition, both user accuracy (UA) and producer accuracy (PA) is almost 70% so the RF method's average accuracy for our project is approximately seven out of ten.</p>
+							
+								
+							</section>
+
+					<!---Split error matrix----------------------------------------------------------------------------->
+							<section class="split">
+								<section>
+									<div>
+										<span class="image main"><img src="images/step2/errorMatrix.png" alt="" /></span>
+					
+									</div>
+								</section>
+								
+							</section>
+						</div>
+					</section>
+
+			
+
+
+					<!-- Footer fos Steps Pages-------------------------------------------------------------------- -->
+
+							<section id="two">
+								<div class="inner">
+									
+									<ul class="actions">
+										<li><a href="project.html" class="button next">Back to Project</a></li>
+									</ul>
+								</div>
+							</section>
+
+		<!-- Scripts--------------------------------------------------------------------------------- -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
